@@ -9,3 +9,7 @@ Initializing with such a big number would be a wastage of memory.
 Solution is to use List<int[]>
 
 
+Now using a HashMap to store the element and its count
+Iterate over the array, check if the s - currentElement exists in the HashMap, if it exists then a pair may be formed
+
+
