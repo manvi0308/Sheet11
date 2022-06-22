@@ -1,6 +1,4 @@
 import java.util.*;
-
-
 public class Solution {
     public static int findMajority(int[] arr, int n) {
         // Write your code here.
