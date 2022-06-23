@@ -14,7 +14,7 @@ public class Solution {
                 if(!set.contains(arr.get(j))){
                     ans.add(index, arr.get(j) + 1);
                 }
-            }e
+            }
         }
         return ans;
     }
