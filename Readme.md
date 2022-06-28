@@ -34,6 +34,7 @@
 1. Find Middle Element of Linked List
 2. Reverse Linked list
 3. Merge two sorted linked lists
+4. Add two numbers represented by Linked lists
 
 ## Dynamic Programming
 
