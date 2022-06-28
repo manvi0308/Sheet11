@@ -17,11 +17,30 @@ public class AddNumbers {
      * //! That is temp--->dummy
      * Now as we will sum the nodes the temp pointer will be used
      * In the end the scenario would be
-     * //! dummy --> s1 ---> s2 ---> s3---> -1
+     * //! dummy --> s1 ---> s2 ---> s3
      * //!                            |
      * //!                           temp
      * //! 
      * Return the dummy.next
+     * 
+     * //! DRY RUN
+     * 2 4 3
+     * 5 6 4
+     * 
+     * 0
+     * DUMMY
+     * TEMP (Copy of Dummy Node)
+     * The dummy.next will always point to head of sum linked list
+     * 
+     * 0 ---> 7
+     * D      T
+     * 
+     * 0 ---> 7 ---> 0
+     * D             T
+     * 
+     * 0 ---> 7 ---> 0 ---> 8
+     * D                    T
+     * 
      */
     static LinkedListNode addTwoNumbers(LinkedListNode head1, LinkedListNode head2) {
         // Write your code here.

@@ -14,14 +14,13 @@
 5. Best time to buy and sell stock I
 6. Four Sum
 7. Longest subarray with zero sum
-8. Majority Element
-9. Maximum subarray sum
-10. Maximum Meetings
-11. Merge two sorted arrays
-12. Missing and repeating numbers
-13. Next Permutation
-14. Pascal Triangle
-15. Remove duplicates from sorted array
+8. Maximum subarray sum
+9.  Maximum Meetings
+10. Merge two sorted arrays
+11. Missing and repeating numbers
+12. Next Permutation
+13. Pascal Triangle
+14. Remove duplicates from sorted array
 
 ## Matrix
 
