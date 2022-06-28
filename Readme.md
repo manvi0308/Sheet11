@@ -1,3 +1,6 @@
+![](https://takeuforward.org/wp-content/uploads/2022/01/Strivers-SDE-Sheet-1-768x384.webp)
+
+
 ## Mathematics
 
 1. Modular Exponentiation
