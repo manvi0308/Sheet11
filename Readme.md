@@ -34,6 +34,7 @@
 2. Reverse Linked list
 3. Merge two sorted linked lists
 4. Add two numbers represented by Linked lists
+5. Intersection of two Linked lists
 
 ## Dynamic Programming
 
