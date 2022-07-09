@@ -67,4 +67,66 @@ public class IntersectionOfTwoLinkedLists {
 		 return -1;
 
 	}
+	//^ Utility method to find the difference in the length of two LLs
+	static int findDifference(LinkedListNode head1, LinkedListNode head2)
+	{
+		int l1 = 0, l2 = 0;
+		// TC: O(Max(L1, L2))
+		while(head1 != null || head2 != null){
+			if(head1 != null){
+				l1++;
+				head1 = head1.next;
+			}
+			if(head2 != null){
+				l2++;
+				head2 = head2.next;
+			}
+		}
+
+		return l1 - l2;
+	}
+	public static int findIntersectionThree(LinkedListNode<Integer> firstHead, LinkedListNode<Integer> secondHead)
+	{
+		//& Difference of length method
+		//& Find the difference in the length of both the LLs
+		//& If difference is positive, say d, then move head1 by d steps ahead
+		//& If difference is negative, meaning second LL is longer, move head2 by d steps ahead
+		//& This is reducing the iteration time complexity by d steps
+		int d = findDifference(firstHead, secondHead);
+		if(d > 0){
+			while(d-- != 0)
+				firstHead = firstHead.next;
+		}
+
+		else if( d < 0){
+			while(d++ != 0){
+				secondHead = secondHead.next;
+			}
+		}
+
+		while(firstHead != null){
+			if(firstHead == secondHead)
+				return firstHead.data;
+			firstHead = firstHead.next;
+			secondHead = secondHead.next;
+		}
+
+		return firstHead.data;
+	}
+
+
+	public static int findIntersection(LinkedListNode<Integer> firstHead, LinkedListNode<Integer> secondHead)
+	{
+		Node d1 = firstHead;
+		Node d2 = secondHead;
+		
+		while(d1 != d2) {
+			//d1 == null -- Condition inside if clause
+			// do the thing before : if the condition is true, else after the :
+			d1 = d1 == null? secondHead:d1.next;
+			d2 = d2 == null? firstHead:d2.next;
+		}
+		
+		return d1
+	}
 }

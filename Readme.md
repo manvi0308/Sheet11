@@ -1,6 +1,5 @@
 ![](https://takeuforward.org/wp-content/uploads/2022/01/Strivers-SDE-Sheet-1-768x384.webp)
 
-
 ## Mathematics
 
 1. Modular Exponentiation
@@ -15,7 +14,7 @@
 6. Four Sum
 7. Longest subarray with zero sum
 8. Maximum subarray sum
-9.  Maximum Meetings
+9. Maximum Meetings
 10. Merge two sorted arrays
 11. Missing and repeating numbers
 12. Next Permutation
@@ -26,7 +25,12 @@
 
 1. Search in 2D Matrix
 2. Set Matrix Zeroes
-3. Pascal Triangle
+3. Rotate Matrix
+
+## Strings
+
+1. Longest Substring without repeating characters
+   
 
 ## Linked List
 
@@ -39,3 +43,4 @@
 ## Dynamic Programming
 
 1. Unique Paths
+
