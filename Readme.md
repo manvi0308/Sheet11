@@ -20,6 +20,9 @@
 12. Next Permutation
 13. Pascal Triangle
 14. Remove duplicates from sorted array
+15. Subarray with given XOR
+16. 3Sum
+17. Reverse Pairs
 
 ## Matrix
 
@@ -39,6 +42,9 @@
 3. Merge two sorted linked lists
 4. Add two numbers represented by Linked lists
 5. Intersection of two Linked lists
+6. Delete Node from a linked list
+7. Delete Kth Node from end
+
 
 ## Dynamic Programming
 
