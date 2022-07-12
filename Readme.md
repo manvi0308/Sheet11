@@ -33,6 +33,7 @@
 ## Strings
 
 1. Longest Substring without repeating characters
+2. Reverse Words In A String
    
 
 ## Linked List
@@ -44,6 +45,7 @@
 5. Intersection of two Linked lists
 6. Delete Node from a linked list
 7. Delete Kth Node from end
+8. Palindrome Linked List
 
 
 ## Dynamic Programming
